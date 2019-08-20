@@ -15,7 +15,7 @@ function send_LINE($msg){
       $data = [
 
         //'to' => 'Ue77a191627f6ac91899e75d92264310c',7UKEzfselRAhrFX1aGcEzWqEDoi491E7bYHd2DY9QDu
-        'to' => '7UKEzfselRAhrFX1aGcEzWqEDoi491E7bYHd2DY9QDu',
+        'to' => 'U95cd710be6f56cb058ac06119b077f86',
         'messages' => [$messages],
       ];
       $post = json_encode($data);
