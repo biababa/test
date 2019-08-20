@@ -10,12 +10,13 @@ function send_LINE($msg){
         //'text' => $text
       ];
 
-      // Make a POST Request to Messaging API to reply to sender//7UKEzfselRAhrFX1aGcEzWqEDoi491E7bYHd2DY9QDu
-      $url = 'https://api.line.me/v2/bot/message/push';
+      // Make a POST Request to Messaging API to reply to sender//7UKEzfselRAhrFX1aGcEzWqEDoi491E7bYHd2DY9QDu//multicast
+      //$url = 'https://api.line.me/v2/bot/message/push';
+      $url = 'https://api.line.me/v2/bot/message/multicast';
       $data = [
 
-        //'to' => '7UKEzfselRAhrFX1aGcEzWqEDoi491E7bYHd2DY9QDu','U95cd710be6f56cb058ac06119b077f86',
-        'to' => 'U95cd710be6f56cb058ac06119b077f86',
+        'to' => '7UKEzfselRAhrFX1aGcEzWqEDoi491E7bYHd2DY9QDu','U95cd710be6f56cb058ac06119b077f86',
+        //'to' => 'U95cd710be6f56cb058ac06119b077f86',
         'messages' => [$messages],
       ];
       $post = json_encode($data);
