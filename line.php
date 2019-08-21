@@ -18,8 +18,8 @@ function send_LINE($msg){
         
        //'to' => '7UKEzfselRAhrFX1aGcEzWqEDoi491E7bYHd2DY9QDu',Ua50df8c342d8b4f6bd5bc2c78946b2ed
         //'to' => ['Ua50df8c342d8b4f6bd5bc2c78946b2ed','U95cd710be6f56cb058ac06119b077f86',]
-        //'to' => 'U95cd710be6f56cb058ac06119b077f86',
-       'to' => 'Ua50df8c342d8b4f6bd5bc2c78946b2ed',
+        'to' => 'U95cd710be6f56cb058ac06119b077f86',
+       //'to' => 'Ua50df8c342d8b4f6bd5bc2c78946b2ed',
         'messages' => [$messages],
       ];
       $post = json_encode($data);
