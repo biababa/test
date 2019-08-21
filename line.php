@@ -15,8 +15,8 @@ $access_token = '7UKEzfselRAhrFX1aGcEzWqEDoi491E7bYHd2DY9QDu';
       $url = 'https://api.line.me/v2/bot/message/multicast';
       $data = [
         
-       'to' => '7UKEzfselRAhrFX1aGcEzWqEDoi491E7bYHd2DY9QDu',
-        //'to' => '7UKEzfselRAhrFX1aGcEzWqEDoi491E7bYHd2DY9QDu','U95cd710be6f56cb058ac06119b077f86',
+       //'to' => '7UKEzfselRAhrFX1aGcEzWqEDoi491E7bYHd2DY9QDu',
+        'to' => ['7UKEzfselRAhrFX1aGcEzWqEDoi491E7bYHd2DY9QDu','U95cd710be6f56cb058ac06119b077f86',]
         //'to' => 'U95cd710be6f56cb058ac06119b077f86',
         'messages' => [$messages],
       ];
