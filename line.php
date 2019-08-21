@@ -11,8 +11,8 @@ function send_LINE($msg){
       ];
 
       // Make a POST Request to Messaging API to reply to sender//7UKEzfselRAhrFX1aGcEzWqEDoi491E7bYHd2DY9QDu//multicast
-      //$url = 'https://api.line.me/v2/bot/message/push';
-      $url = 'https://api.line.me/v2/bot/message/multicast';
+      $url = 'https://api.line.me/v2/bot/message/push';
+      //$url = 'https://api.line.me/v2/bot/message/multicast';
       $data = [
         
        //'to' => '7UKEzfselRAhrFX1aGcEzWqEDoi491E7bYHd2DY9QDu',
